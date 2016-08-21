@@ -6,4 +6,4 @@ Feature: Rock Paper Scissor
     When "Player1" play "scissor"
     And "Player2" play "rock"
     Then "Player1" should have score 0
-    And "Player2" should ahve score 1
+    And "Player2" should have score 1
