@@ -9,7 +9,7 @@ module.exports = function(){
     callback(null, 'pending');
   });
 
-  this.Then(/^"([^"]*)" should ahve score (\d+)$/, function (arg1, arg2, callback) {
+  this.Then(/^"([^"]*)" should have score (\d+)$/, function (arg1, arg2, callback) {
     // Write code here that turns the phrase above into concrete actions
     callback(null, 'pending');
   });
