@@ -1,6 +1,6 @@
 Feature: Rock Paper Scissor
 
-  Scenario: Having two players
+  Scenario: Having a Match
     Given "Player1" with score 0
     And "Player2" with score 0
     When "Player1" play "scissor"
