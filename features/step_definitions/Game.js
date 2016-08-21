@@ -1,5 +1,5 @@
 module.exports = function(){
-  this.Given(/^"([^"]*)" with score (\d+)$/, function (arg1, arg2, callback) {
+  this.Given(/^"([^"]*)" with score (\d+)$/, function (Player, Score, callback) {
     // Write code here that turns the phrase above into concrete actions
     callback(null, 'pending');
   });

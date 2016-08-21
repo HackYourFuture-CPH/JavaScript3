@@ -10,10 +10,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jasmine": "^2.4.1"
-  },
   "devDependencies": {
+    "jasmine": "^2.4.1",
     "cucumber": "^1.2.2"
   }
 }
