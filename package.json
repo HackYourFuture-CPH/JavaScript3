@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bdd": "cucumber-js",
+    "tdd": "jasmine",
+    "test": "npm run bdd && npm run tdd"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.4.1"
+  },
+  "devDependencies": {
+    "cucumber": "^1.2.2"
+  }
 }
